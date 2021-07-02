@@ -209,17 +209,15 @@
         <server.output.dir.prefix>keycloak</server.output.dir.prefix>
         <!-- Version suffix that is appended to directories. Default is the maven GAV version but this can be edited to use a short form version -->
         <server.output.dir.version>${project.version}</server.output.dir.version>
+        
+          <sonar.projectKey>dnosauro_keycloak</sonar.projectKey>
+  <sonar.organization>dnosauro</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
 
     </properties>
 
     <url>http://keycloak.org</url>
     
-    <properties>
-  <sonar.projectKey>dnosauro_keycloak</sonar.projectKey>
-  <sonar.organization>dnosauro</sonar.organization>
-  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-</properties>
-
     <licenses>
         <license>
             <name>Apache License, Version 2.0</name>
