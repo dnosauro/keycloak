@@ -213,6 +213,12 @@
     </properties>
 
     <url>http://keycloak.org</url>
+    
+    <properties>
+  <sonar.projectKey>dnosauro_keycloak</sonar.projectKey>
+  <sonar.organization>dnosauro</sonar.organization>
+  <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+</properties>
 
     <licenses>
         <license>
